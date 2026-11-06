@@ -3218,8 +3218,8 @@ Tilemap:
   - first: {x: 12, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3231,12 +3231,12 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f38f9c3ee39be0448b989cc504f574a7, type: 2}
   - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 95686c5c41dc9e0428e0b96cb184f44b, type: 2}
-  - m_RefCount: 3
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 507153ad8a996ff46accb201ad2f657d, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 85bbf9190fa76c74a9815aa16672fa63, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7c1b8f2f49aa83d4290ca8b611430e91, type: 2}
   - m_RefCount: 5
@@ -3246,15 +3246,15 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 11
     m_Data: {fileID: 1910511807, guid: ce376a097186b394d9a4c83573d6513d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1567885732, guid: ce376a097186b394d9a4c83573d6513d, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 5
     m_Data: {fileID: -357525682, guid: ce376a097186b394d9a4c83573d6513d, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -1724108846, guid: ce376a097186b394d9a4c83573d6513d, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 436231976, guid: ce376a097186b394d9a4c83573d6513d, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 4
     m_Data: {fileID: -1277156132, guid: ce376a097186b394d9a4c83573d6513d, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 29
@@ -3465,7 +3465,76 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6538822028775961994, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
       propertyPath: m_Name
-      value: IdleSnake (1)
+      value: MediumSnake
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+--- !u!1001 &1771359586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9016
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9016
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9016
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000013929
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 608111238317934369, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538822028775961994, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_Name
+      value: LargeSnake
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3579,7 +3648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6538822028775961994, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
       propertyPath: m_Name
-      value: IdleSnake
+      value: SmallSnake
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3596,3 +3665,4 @@ SceneRoots:
   - {fileID: 1408767025869813896}
   - {fileID: 5692145890069486857}
   - {fileID: 1654146643}
+  - {fileID: 1771359586}
