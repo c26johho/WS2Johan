@@ -19,7 +19,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
 {
     [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private float jumpForce = 10f;
-    
+    private bool Left;
     
     // Physics and collision
     [SerializeField] private Rigidbody2D rigidbody;
@@ -28,7 +28,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     
     // Handle input
     public bool controlEnabled { get; set; } = true; // You can edit this variable from Unity Events
-    private Vector2 moveInput;
+    private Vector2 moveInput;  
     private Vector2 velocity;
     private bool jumpInput;
     private bool jumpReleased;
