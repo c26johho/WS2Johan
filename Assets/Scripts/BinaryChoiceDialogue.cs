@@ -11,9 +11,8 @@ public class BinaryChoiceDialogue : MonoBehaviour
     [SerializeField] private Button yesButton;
     [SerializeField] private Button noButton;
     [SerializeField] private string dialogue;
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private CustomizablePlatformerMovement player;
 
+    [SerializeField] private UnityEvent onStartUp;
     [SerializeField] private UnityEvent onYes;
     [SerializeField] private UnityEvent onNo;
     [SerializeField] private UnityEvent onChoiceMade;
@@ -21,21 +20,29 @@ public class BinaryChoiceDialogue : MonoBehaviour
 
     public void BinaryChoice()
     {
+        onStartUp?.Invoke();
         yesButton?.onClick.AddListener(SpeedUp);
-        noButton?.onClick.AddListener(End);
+        noButton?.onClick.AddListener(OnNo);
         textBox.text = dialogue;
     }
 
     private void SpeedUp()
     {
+        onYes?.Invoke();
         End();
     }
 
+    private void OnNo()
+    {
+        onNo?.Invoke();
+        End();
+    }
+    
     private void End()
     {
         onChoiceMade?.Invoke();
         yesButton?.onClick.RemoveListener(SpeedUp);
-        noButton?.onClick.RemoveListener(End);
+        noButton?.onClick.RemoveListener(OnNo);
     }
     
 }

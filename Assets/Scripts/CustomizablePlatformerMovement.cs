@@ -181,4 +181,9 @@ public class CustomizablePlatformerMovement : MonoBehaviour
             jumpInput = false;
         }
     }
+
+    public void IncreaseSpeed(float increase)
+    {
+        maxSpeed += increase;
+    }
 }
