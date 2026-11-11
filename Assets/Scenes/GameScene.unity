@@ -6375,6 +6375,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5071800842198698926, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6538822028775961994, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
       propertyPath: m_Name
       value: LargeSnake
@@ -6744,6 +6748,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5071800842198698926, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6538822028775961994, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
       propertyPath: m_Name
       value: SmallSnake
@@ -6828,6 +6836,10 @@ PrefabInstance:
     - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190935497835843212, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7524381466490095190, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
       propertyPath: m_LocalPosition.x
