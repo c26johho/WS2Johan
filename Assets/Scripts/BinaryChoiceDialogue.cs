@@ -1,12 +1,10 @@
 using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class BinaryChoiceDialogue : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private TMPro.TextMeshProUGUI textBox;
     [SerializeField] private Button yesButton;
     [SerializeField] private Button noButton;
@@ -17,7 +15,7 @@ public class BinaryChoiceDialogue : MonoBehaviour
     [SerializeField] private UnityEvent onNo;
     [SerializeField] private UnityEvent onChoiceMade;
 
-
+    // Start by activating the buttons to their respective response-function. Add text to scene.
     public void BinaryChoice()
     {
         onStartUp?.Invoke();
@@ -25,20 +23,22 @@ public class BinaryChoiceDialogue : MonoBehaviour
         noButton?.onClick.AddListener(OnNo);
         textBox.text = dialogue;
     }
-
+    // The function that gets called when yesButton is pressed.
     private void SpeedUp()
     {
         onYes?.Invoke();
-        End();
+        EndDialogue();
     }
 
+    // The function that gets called when noButton is pressed.
     private void OnNo()
     {
         onNo?.Invoke();
-        End();
+        EndDialogue();
     }
     
-    private void End()
+    // Ending the dialogue by calling an event and unsubscribing the buttons from their respective event.
+    private void EndDialogue()
     {
         onChoiceMade?.Invoke();
         yesButton?.onClick.RemoveListener(SpeedUp);
