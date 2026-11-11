@@ -11,7 +11,7 @@ Library: C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generat
 --linker-options=PdbAltPath="WS2Johan_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Temp\WS2Johan\Temp\Burst
---key-folder=C:/Program Files/Unity 6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Temp\WS2Johan\Library\Burst
 --output=C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -54,7 +54,7 @@ Library: C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generat
 --linker-options=PdbAltPath="WS2Johan_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Temp\WS2Johan\Temp\Burst
---key-folder=C:/Program Files/Unity 6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Temp\WS2Johan\Library\Burst
 --output=C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -97,7 +97,7 @@ Library: C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generat
 --linker-options=PdbAltPath="WS2Johan_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Temp\WS2Johan\Temp\Burst
---key-folder=C:/Program Files/Unity 6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Temp\WS2Johan\Library\Burst
 --output=C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -214,7 +214,7 @@ Library: C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generat
 --linker-options=PdbAltPath="WS2Johan_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Temp\WS2Johan\Temp\Burst
---key-folder=C:/Program Files/Unity 6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Temp\WS2Johan\Library\Burst
 --output=C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -333,7 +333,7 @@ Library: C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generat
 --linker-options=PdbAltPath="WS2Johan_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Temp\WS2Johan\Temp\Burst
---key-folder=C:/Program Files/Unity 6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Temp\WS2Johan\Library\Burst
 --output=C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -354,7 +354,7 @@ Library: C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generat
 --linker-options=PdbAltPath="WS2Johan_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Temp\WS2Johan\Temp\Burst
---key-folder=C:/Program Files/Unity 6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Temp\WS2Johan\Library\Burst
 --output=C:\Temp\WS2Johan\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
