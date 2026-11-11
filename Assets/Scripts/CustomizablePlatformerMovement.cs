@@ -45,7 +45,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         
         rigidbody.gravityScale = 0; // Set gravity scale to 0 so player won't "fall". We will apply our own gravity!
 
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
     
     void Update()
@@ -88,7 +88,14 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         velocity.x = moveInput.x * maxSpeed;
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
-        // animator.SetFloat("HorizontalMovement", moveInput.x)
+        if (velocity.x != 0)
+        {
+            animator.SetBool("Walking", true);
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
+        }
         
         // Flip sprite according to direction (if a sprite renderer has been assigned)
         if (spriteRenderer)

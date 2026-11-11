@@ -5530,6 +5530,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+--- !u!58 &1729252002 stripped
+CircleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 992570283023676421, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+  m_PrefabInstance: {fileID: 5700182328722216373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1771359586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5599,6 +5604,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad98f69c17c91a1458744f4b0d2e5561, type: 3}
+--- !u!114 &1890792158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2865954700204342095, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+  m_PrefabInstance: {fileID: 5700182328722216373}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d7a92a37a34cb4ea1ac015797083f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CustomizablePlatformerMovement
+--- !u!95 &1890792162 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4010319215141917962, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+  m_PrefabInstance: {fileID: 5700182328722216373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1890792164 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6190935497835843212, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+  m_PrefabInstance: {fileID: 5700182328722216373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5692145890069486857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5668,6 +5694,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnimatedPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 1430065309578566991, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430065309578566991, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865954700204342095, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1890792162}
+    - target: {fileID: 2865954700204342095, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865954700204342095, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: jumpForce
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865954700204342095, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1890792164}
+    - target: {fileID: 2865954700204342095, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: groundCheckCollider
+      value: 
+      objectReference: {fileID: 1729252002}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1890792158}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMove
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CustomizablePlatformerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3499611487488675401, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7524381466490095190, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.92
@@ -5707,6 +5797,14 @@ PrefabInstance:
     - target: {fileID: 7524381466490095190, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8029098000874801849, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 8029098000874801849, guid: d4313ea6519e9474a9e60c73ec3e86b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.199
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
