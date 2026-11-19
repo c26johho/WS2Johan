@@ -19,12 +19,12 @@ public class BinaryChoiceDialogue : MonoBehaviour
     public void BinaryChoice()
     {
         onStartUp?.Invoke();
-        yesButton?.onClick.AddListener(SpeedUp);
+        yesButton?.onClick.AddListener(OnYes);
         noButton?.onClick.AddListener(OnNo);
         textBox.text = dialogue;
     }
     // The function that gets called when yesButton is pressed.
-    private void SpeedUp()
+    private void OnYes()
     {
         onYes?.Invoke();
         EndDialogue();
@@ -41,7 +41,7 @@ public class BinaryChoiceDialogue : MonoBehaviour
     private void EndDialogue()
     {
         onChoiceMade?.Invoke();
-        yesButton?.onClick.RemoveListener(SpeedUp);
+        yesButton?.onClick.RemoveListener(OnYes);
         noButton?.onClick.RemoveListener(OnNo);
     }
     
